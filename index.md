@@ -61,11 +61,6 @@ getWords <- function(text_object){
 
 * for plotting word cloud R library <code>wordcloud</code> is used:
 
-
-```
-## Loading required package: RColorBrewer
-```
-
 <img src="assets/fig/wcloud-1.png" title="plot of chunk wcloud" alt="plot of chunk wcloud" style="display: block; margin: auto;" />
 
 --- .class #id
@@ -73,11 +68,6 @@ getWords <- function(text_object){
 ## Barplot of word occurrences
 
 * for plotting barplot R library <code>ggplot2</code> is used
-
-
-```
-## Need help? Try the ggplot2 mailing list: http://groups.google.com/group/ggplot2.
-```
 
 <img src="assets/fig/barp-1.png" title="plot of chunk barp" alt="plot of chunk barp" style="display: block; margin: auto;" />
 

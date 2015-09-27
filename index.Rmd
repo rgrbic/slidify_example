@@ -60,7 +60,7 @@ getWords <- function(text_object){
 
 * for plotting word cloud R library <code>wordcloud</code> is used:
 
-```{r wcloud, echo = FALSE, eval = TRUE, fig.align='center'}
+```{r wcloud, echo = FALSE, eval = TRUE, fig.align='center', message=FALSE}
 library(wordcloud)
 
 text_object = "Two households, both alike in dignity,
@@ -95,7 +95,7 @@ wordcloud(wordsSorted$x,wordsSorted$freq,scale=c(6,.5),min.freq=2,max.words=Inf)
 
 * for plotting barplot R library <code>ggplot2</code> is used
 
-```{r barp, echo = FALSE, eval = TRUE, fig.align='center'}
+```{r barp, echo = FALSE, eval = TRUE, fig.align='center', message=FALSE}
 library(ggplot2)
 
 text_object = "Two households, both alike in dignity,
