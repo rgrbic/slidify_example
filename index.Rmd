@@ -14,9 +14,8 @@ knit        : slidify::knit2slides
 ## Application and its structure
 
 * text analyst is a shiny application
-* find it on link https://rgrbic.shinyapps.io/appWords
+* find it on https://rgrbic.shinyapps.io/appWords
 * user enters text to be analyzed, app shows word frequency 
-
 * user interface is <code>sidebarLayout</code> which consists of <code>sidebarPanel</code> and <code>mainPanel</code>
 * <code>sidebarPanel</code> contains short application description with the radio buttons where user selects desired plot
 * <code>mainPanel</code> is divided into two rows:
