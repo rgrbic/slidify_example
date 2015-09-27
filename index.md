@@ -11,7 +11,7 @@ mode        : selfcontained     # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Application text analysis and its structure
+## Application and its structure
 
 * text analyst is a shiny application
 * find it on link https://rgrbic.shinyapps.io/appWords
