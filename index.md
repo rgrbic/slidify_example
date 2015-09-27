@@ -7,19 +7,15 @@ framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : [bootstrap, shiny, interactive]   # {mathjax, quiz, bootstrap}
-mode        : standalone     # {standalone, draft}
+mode        : selfcontained     # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## What is text analyst
+## Application text analysis and its structure
 
 * text analyst is a shiny application
 * find it on link https://rgrbic.shinyapps.io/appWords
 * user enters text to be analyzed, app shows word frequency 
-
---- .class #id 
-
-## Application structure
 
 * user interface is <code>sidebarLayout</code> which consists of <code>sidebarPanel</code> and <code>mainPanel</code>
 * <code>sidebarPanel</code> contains short application description with the radio buttons where user selects desired plot
